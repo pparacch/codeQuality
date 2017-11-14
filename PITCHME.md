@@ -1,4 +1,6 @@
-# Software development
+## Software development
+
+---
 
 Agenda:
 * We will look at a script and see some drawbacks of the "script style"
@@ -8,6 +10,9 @@ Agenda:
   * write tests
   * setup automatic testing
   * make a setup script that can be used to test and install the project
+
+
+---
 
 
 ## Script style development
@@ -21,7 +26,14 @@ Some examples recently include
 * 400 LOC script, no functions
 
 
+---
+
+
 ### Why do we program?
+
+
+---
+
 
 Primary reason:
 *  pure pleasure
@@ -32,10 +44,17 @@ Primary reason:
   * boring?
 
 
+---
+
+
 In the process we are solving many smaller problems!
 
 These smaller problems, the atomic building blocks of the final solution, are
 often seen in other problems.
+
+
+---
+
 
 ### Reusable programs
 
@@ -50,6 +69,8 @@ If you spend three months writing a function on 500 lines that takes more than
 That means those three months are much more expensive than if you write code
 that many others can use.
 
+
+---
 
 ## Long functions
 
@@ -67,6 +88,8 @@ If you cannot explain in a couple sentences exactly
 it is not reusable and should therefore be split.
 
 
+---
+
 ### The behavior of a function
 
 When a function is not well-defined
@@ -75,7 +98,12 @@ When a function is not well-defined
 * it is difficult to debug, because its scope is unclear
 
 
+---
+
 ## Test driven development
+
+
+---
 
 ### Code QA
 
@@ -90,6 +118,9 @@ def test_rms():
     assert root_mean_square([4,5,6,7,8]) == 6.1644
 ```
 
+
+---
+
 ### Unit test
 
 Unit tests ensure several things, amongst
@@ -98,9 +129,14 @@ Unit tests ensure several things, amongst
 * dogfooding -- they force you to taste your own food
 
 
+
+---
+
 ### TDD -- Test Driven Development
 
 When writing code for Statoil, we employ _test driven development_.
+
+---
 
 #### Tests first
 
@@ -113,6 +149,8 @@ def test_rms():
 
 There is no such function!  So the tests will fail!
 
+
+---
 
 #### Test first -- then implement
 
