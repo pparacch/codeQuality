@@ -1,10 +1,13 @@
-## Software development
+### Software development
 
 ---
 
 Agenda:
 * We will look at a script and see some drawbacks of the "script style"
 * We try to explain the benefits of many small functions rather than few big functions
+* We will see how to
+
++++
 * We will see how to
   * use git (some experience is assumed)
   * write tests
@@ -14,30 +17,63 @@ Agenda:
 
 ---
 
+### git lightning intro
 
-## Script style development
+* we use git for _all_ code
+* we use git for _all_ code
 
-In Statoil we often see there are scripts written that have no functions and
++++
+
+* commits
+  * patch = diff
+* branches
+* remotes
+  * forks
+* pull requests / merge requests
+
++++
+
+![Logo](https://git-scm.com/book/en/v2/images/basic-branching-6.png)
+
+---
+
+### Script style development
+
+In Statoil we often see there are scripts written that have no functions
+
 span 200-2000 lines of code.
+
++++
 
 Some examples recently include
 * 700 LOC function called `run()`
 * 500 LOC function called `named_plot` taking 14 parameters
 * 400 LOC script, no functions
 
++++
+
+* recommend: at most 30 LOC / function
+  * but more is ok if it does _one_ thing!
+* fewer LOC if complex control flow
+* maximum nesting: 4 levels
 
 ---
 
 
-### Why do we program?
+#### Why do we program?
 
 
 ---
 
 
 Primary reason:
-*  pure pleasure
-*  automate work that is
+* pure pleasure
+
++++
+
+We program to:
+
+* automate work that is
   * tedious
   * slow
   * error-prone
@@ -49,34 +85,71 @@ Primary reason:
 
 In the process we are solving many smaller problems!
 
-These smaller problems, the atomic building blocks of the final solution, are
-often seen in other problems.
++++
 
+These smaller problems form
+
+> atomic building blocks of the final solution
+
+and are often seen in other problems.
+
++++
+
+> atomic building blocks
+
+* obtaining data from wherever
+* parsing and cleaning csv
+* splitting dataset
+* reading ECLIPSE files
+* and writing them
+* plotting production curves
+* ...
 
 ---
 
 
-### Reusable programs
+#### Reusable programs
 
 When our solution is a 500 lines long script
 
 we ensure no reusability.
 
++++
 
-If you spend three months writing a function on 500 lines that takes more than
-10 parameters, guaranteed not used by anyone else.
 
-That means those three months are much more expensive than if you write code
-that many others can use.
+* Spend 3 months writing a
+* 500 LOC function taking
+* more than 10 parameters,
 
+guaranteed not used by anyone else.
+
++++
+
+Those three months are much more expensive
+
+than if you write code that many others can use.
+
++++
+
+> given enough eyeballs, all bugs are shallow
+
+More users gives better testing gives better quality
+
++++
+
+> given enough eyeballs, all bugs are shallow
+
+... is the mantra of open source
 
 ---
 
-## Long functions
+### Long functions
 
-Long functions are not "well-defined".
+Long functions _are not well-defined_
 
-What does `run` do in those 700 LOC?
+What does `run()` do in those 700 LOC?
+
++++
 
 If you cannot explain in a couple sentences exactly
 
@@ -85,27 +158,46 @@ If you cannot explain in a couple sentences exactly
 * assumptions
 * side-effects
 
-it is not reusable and should therefore be split.
+Then
+* not reusable
+* should be split.
 
+
++++
+
+#### Command-Query Separation
+
+* A function should
+  * either modify its input _(command)_
+  * or return something _(query)_
+
++++
+
+#### Command-Query Separation
+
+* The best case is _immutable objects_
+  * no function modifies data
+  * all functions are queries
 
 ---
 
-### The behavior of a function
+#### The behavior of a function
 
 When a function is not well-defined
 * it is difficult to use
 * it is difficult to test
-* it is difficult to debug, because its scope is unclear
+* it is difficult to debug
+  * because its scope is unclear
 
 
 ---
 
-## Test driven development
+### Test driven development
 
 
----
++++
 
-### Code QA
+#### Code QA
 
 To ensure that code runs correctly, we write _unit test_.
 
@@ -119,26 +211,30 @@ def test_rms():
 ```
 
 
----
++++
 
-### Unit test
+
+##### Unit test
 
 Unit tests ensure several things, amongst
-* they ensure _correctness_
-* they inform you when your program's behavior changed
-* dogfooding -- they force you to taste your own food
-
+* ensure _correctness_
+* inform you when behavior changes
+* force you into using your own program
+  * dogfood
 
 
 ---
 
-### TDD -- Test Driven Development
+#### Test Driven Development (TDD)
 
-When writing code for Statoil, we employ _test driven development_.
 
----
+* When writing code for Statoil
+  * we always employ _test driven development_
+  * always
 
-#### Tests first
++++
+
+##### Tests first
 
 We write the test first!
 
@@ -150,12 +246,31 @@ def test_rms():
 There is no such function!  So the tests will fail!
 
 
----
++++
 
-#### Test first -- then implement
+
+##### Test first -- then implement
 
 
 ```python
 def root_mean_square(lst):
     # ...
 ```
+
+Hopefully written correctly, tests pass!
+
++++
+
+
+##### Test first -- then implement
+
+Simultaneously, you got to
+
+* use your own interface before writing it
+* making it easy to understand
+* reusable
+* well defined
+
++++
+
+EOF
