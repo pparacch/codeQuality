@@ -33,7 +33,7 @@ Agenda:
 
 +++
 
-![Logo](https://git-scm.com/book/en/v2/images/basic-branching-6.png)
+![git-branch](https://git-scm.com/book/en/v2/images/basic-branching-6.png)
 
 ---
 
@@ -46,9 +46,14 @@ span 200-2000 lines of code.
 +++
 
 Some examples recently include
+* 764 LOC else block
 * 700 LOC function called `run()`
 * 500 LOC function called `named_plot` taking 14 parameters
 * 400 LOC script, no functions
+
++++
+
+![orelse](https://raw.githubusercontent.com/pgdr/tdd/master/orelse.png)
 
 +++
 
