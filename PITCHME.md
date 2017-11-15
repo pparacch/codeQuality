@@ -1,4 +1,4 @@
-### Software development
+### Code quality
 
 ---
 
@@ -56,6 +56,27 @@ Some examples recently include
   * but more is ok if it does _one_ thing!
 * fewer LOC if complex control flow
 * maximum nesting: 4 levels
+
++++
+
+```python
+# Ugly! Workaround to use multithreading and speed-up plotting
+# TODO: create plotting class
+def plot_inflow(w, p, lock=''):         # :1175
+  #...
+  for n, d in enumerate(well_block_prod.get_prt_dates(p)):
+    if prod[0][1] == -9999:
+        #...
+    else:
+      if percentage_opt:
+        #...
+        if flag_tot_contribution:
+          #...
+          for i, t in enumerate(oil_prod):
+            if t <= 0:
+              oil_prod[i] = 1.0E-9      # :1332
+
+```
 
 ---
 
@@ -219,8 +240,7 @@ def test_rms():
 Unit tests ensure several things, amongst
 * ensure _correctness_
 * inform you when behavior changes
-* force you into using your own program
-  * dogfood
+* force you into using your own program (dogfood)
 
 
 ---
