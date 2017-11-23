@@ -5,7 +5,6 @@
 Agenda:
 * We will look at a script and see some drawbacks of the "script style"
 * We try to explain the benefits of many small functions rather than few big functions
-* We will see how to
 
 +++
 * We will see how to
@@ -13,6 +12,43 @@ Agenda:
   * write tests
   * setup automatic testing
   * make a setup script that can be used to test and install the project
+
+
+---
+
+### Why Code quality is important!
+
++++
+
+3 & 6 June, 1980: __[NORAD and Nuclear Attack Warnings](https://en.wikipedia.org/wiki/North_American_Aerospace_Defense_Command)__
+
+> "... On 3 June 1980, and again on 6 June 1980, a computer communications device failure caused warning messages to sporadically flash in U.S. Air Force command posts around the world that a nuclear attack was taking place. ..."
+
+26 September, 1983: __[The man who saved the world by doing nothing](https://www.wired.com/2007/09/dayintech-0926-2/)__
+
+> "... One of the satellites signaled Moscow that the United States had launched five ballistic missiles at Russia ..."
+
++++
+
+__Code quality__ will influence __productivity vs. time__
+  - being __slow down__ by __messy code__
+
++++
+
+![codequality](https://imgs.xkcd.com/comics/code_quality.png)  
+
+---
+
+### What's code quality
+
++++
+
+- Doing the right thing, right
+  - Well-tested & bug-free
+- Clear & simple
+  - Easy to understand
+  - Easy to maintain
+  - Self-explaining
 
 
 ---
