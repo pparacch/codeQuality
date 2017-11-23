@@ -66,7 +66,7 @@ It's about ...
 
 ### Fundamentals & Best Practice
 
-<small>_... take some time to get your machine in order and up to date with the tools you will need to do your work._</small>
+<small>_... get your machine in order and up to date with the tools you need to do your work._</small>
 
 +++
 
@@ -75,8 +75,8 @@ It's about ...
 - Which __version of python__ is used?
 - Which __version of the packages__ are required?
 
-If using vanilla python look into __Virtualenv__, and  
-if using conda look into __environment__
+If using __vanilla python__ look into __Virtualenv__, and  
+if using __conda__ look into __environment__.
 
 +++
 
@@ -113,6 +113,23 @@ __Version control__ is vital when working on a task, whether __alone__ or __with
 <small>"_Git allows to work with branches ... A branch is just an indipendent line of developmnet._"</small>
 
 ![git-branch](https://git-scm.com/book/en/v2/images/basic-branching-6.png)
+
++++
+
+
+####
+
++++
+
+#### Coding style
+
+__[PEP-8 Standard](http://legacy.python.org/dev/peps/pep-0008/)__
+- __Indents__ - four spaces for each indentation
+- __Maximum line length__ - 80 characters
+- __Blank lines__ - two between import, class, and function definitions; one between method definitions within a class
+- __Import statements__ - one per line
+- __Class names__ - capital for the first letter (and then camel case)
+- __Method names__ - all lowercase and underscore to separate words
 
 ---
 
