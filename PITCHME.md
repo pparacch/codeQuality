@@ -137,27 +137,35 @@ _can make your life easier._
 - __Maximum line length__
   - 80 characters
 - __Blank lines__
-  - 2 between imports/ classes/ functions; 1 between methods within a class
+  - 2 between imports/ classes/ functions;
+  - 1 between methods within a class
 
 +++
 
-* __Import statements__, 1 per line
-* __Class names__, capital for the first letter (and then camel case)
-* __Method names__, all lowercase and underscore to separate words
+- __Import statements__
+  - 1 per line
+- __Class names__
+  - capital for the first letter (and then camel case)
+-  __Method names__
+  - all lowercase and underscore to separate words
 
 +++
 
 #### Coding style: Clean Code
 
-- __Use meaningful names__ for your variables, functions, arguments, ...
-- __Explain yourself in code__, the code express your intentions
-- __Use comments__ to compensate the inability to express your intention
+- __Use meaningful names__
+  - variables, functions, arguments, ...
+- __Explain yourself in code__
+- __Use comments for special case__
 
 +++
 
-- __Function must be small__, 20/ 30 lines of code
-- __Each function should do one thing__, they should do it well and they should do it only
-- __Ideal number of arguments for a function: less than 3__  
+- __Function must be small__
+  - try to limit to 20/ 30 lines of code
+- __Each function should do one thing__
+  - they should do it well and they should do it only
+- __Ideal number of arguments for a function__
+  - less than 3 
 
 ---
 
