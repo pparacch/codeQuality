@@ -131,13 +131,26 @@ _can make your life easier._
 +++
 
 #### Coding style: [PEP-8 Standard](http://legacy.python.org/dev/peps/pep-0008/)
+
+<small>
 - __Indents__ - four spaces for each indentation
 - __Maximum line length__ - 80 characters
 - __Blank lines__ - two between import, class, and function definitions; one between method definitions within a class
 - __Import statements__ - one per line
 - __Class names__ - capital for the first letter (and then camel case)
 - __Method names__ - all lowercase and underscore to separate words
+</small>
 
++++
+
+#### Coding style: Clean Code
+
+<small>
+- __Use meaningful names__ for your variables, functions, arguments, classes ...
+- __Explain yourself in code__ use the code to express your intentions
+- __Use comments__ to compensate the inability to express your intention with the code
+  - __Comments do not make up for bad code!__
+</small>
 ---
 
 ### Script style development
