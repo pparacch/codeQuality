@@ -24,13 +24,15 @@ Agenda:
 
 > "... On 3 June 1980, and again on 6 June 1980, a computer communications device failure caused warning messages to sporadically flash in U.S. Air Force command posts around the world that a nuclear attack was taking place. ..."
 
++++
+
 26 September, 1983: __[The man who saved the world by doing nothing](https://www.wired.com/2007/09/dayintech-0926-2/)__
 
 > "... One of the satellites signaled Moscow that the United States had launched five ballistic missiles at Russia ..."
 
 +++
 
-__Code quality__ will influence __productivity vs. time__
+__Productivity vs. Time__
   - being __slow down__ by __messy code__
 
 +++
@@ -44,7 +46,8 @@ __Code quality__ will influence __productivity vs. time__
 +++
 
 - Doing the right thing, right
-  - Well-tested & bug-free
+  - Well-tested & bug-free code
+
 - Clear & simple
   - Easy to understand
   - Easy to maintain
