@@ -98,7 +98,7 @@ dependencies:
 
 #### Version Control (Git)
 
-Version control is vital when working on a task, whether alone or with other people.
+__Version control__ is vital when working on a task, whether __alone__ or __with other people__.
 
 * we use git for _all_ code
 
@@ -109,6 +109,8 @@ Version control is vital when working on a task, whether alone or with other peo
 ![git-basic](https://git-scm.com/book/en/v2/images/snapshots.png)
 
 +++
+
+<small>"_Git allows to work with branches ... A branch is just an indipendent line of developmnet._"</small>
 
 ![git-branch](https://git-scm.com/book/en/v2/images/basic-branching-6.png)
 
