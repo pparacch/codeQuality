@@ -164,8 +164,10 @@ _can make your life easier._
   - try to limit to 20/ 30 lines of code
 - __Each function should do one thing__
   - they should do it well and they should do it only
-- __Ideal number of arguments for a function__
-  - less than 3 
+- __Limit the number of arguments for a function__
+  - less than 3
+- __Limit nesting within a function__
+  - less o maximum 2 nesting level
 
 ---
 
