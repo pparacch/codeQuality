@@ -47,13 +47,15 @@ __Productivity vs. Time__
 
 +++
 
-- Doing the right thing, right
+It's about ...
+
+- doing the right thing, right
   - Well-tested & bug-free code
 
-- Clear & simple
-  - Easy to understand
-  - Easy to maintain
-  - Self-explaining
+- writing __clear__ & __simple__ code
+  - easy to __understand__
+  - easy to __maintain__
+  - __self-explaining__
 
 ---
 
