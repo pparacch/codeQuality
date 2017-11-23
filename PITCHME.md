@@ -24,6 +24,7 @@ __[NORAD and Nuclear Attack Warnings](https://en.wikipedia.org/wiki/North_Americ
 
 <small>"... On 3 June 1980, and again on 6 June 1980, a computer communications device failure caused warning messages to sporadically flash in U.S. Air Force command posts around the world that a nuclear attack was taking place. ..."</small>
 
+___
 
 26 September, 1983  
 __[The man who saved the world by doing nothing](https://www.wired.com/2007/09/dayintech-0926-2/)__
@@ -74,7 +75,7 @@ It's about ...
 - Which __version of python__ is used?
 - Which __version of the packages__ are required?
 
-If using vanilla python look into __Virtualenv__, and
+If using vanilla python look into __Virtualenv__, and  
 if using conda look into __environment__
 
 +++
