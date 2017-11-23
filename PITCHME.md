@@ -133,12 +133,12 @@ _can make your life easier._
 #### Coding style: [PEP-8 Standard](http://legacy.python.org/dev/peps/pep-0008/)
 
 
-* <small>__Indents__ - 4 spaces for each indentation (no TAB)</small>
-* <small>__Maximum line length__ - 80 characters</small>
-* <small>__Blank lines__ - two between import, class, and function definitions; one between method definitions within a class</small>
-* <small>__Import statements__ - one per line</small>
-* <small>__Class names__ - capital for the first letter (and then camel case)</small>
-* <small>__Method names__ - all lowercase and underscore to separate words</small>
+<small>* __Indents__ - 4 spaces for each indentation (no TAB)</small>
+<small>* __Maximum line length__ - 80 characters</small>
+<small>* __Blank lines__ - two between import, class, and function definitions; one between method definitions within a class</small>
+<small>* __Import statements__ - one per line</small>
+<small>* __Class names__ - capital for the first letter (and then camel case)</small>
+<small>* __Method names__ - all lowercase and underscore to separate words</small>
 
 +++
 
