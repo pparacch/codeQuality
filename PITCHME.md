@@ -66,11 +66,11 @@ It's about ...
 
 ### Fundamentals & Best Practice
 
-<small>_... it is a good idea to take some time to get your machine in order and up to date with the tools you will need to do your work._</small>
+<small>_... take some time to get your machine in order and up to date with the tools you will need to do your work._</small>
 
 +++
 
-#### Be in control of the runtime environment
+#### Runtime Environment
 
 - Which __version of python__ is used?
 - Which __version of the packages__ are required?
@@ -80,7 +80,7 @@ if using conda look into __environment__
 
 +++
 
-An example of a conda __environment__...
+An example of a conda __environment__ <small>(environment.yml)</small> ...
 
 ```
 name: myEnvironment
@@ -96,19 +96,17 @@ dependencies:
 
 ---
 
-### git lightning intro
+#### Vource Control (Git)
 
-* we use git for _all_ code
+Version control is vital when working on a task, whether alone or with other people.
+
 * we use git for _all_ code
 
 +++
 
-* commits
-  * patch = diff
-* branches
-* remotes
-  * forks
-* pull requests / merge requests
+<smaller>"_With Git, every time you commit ... Git basically takes a picture of what all your files look like at that moment and stores a reference to that snapshot. Git thinks about its data more like a stream of snapshots._"</smaller>
+
+![git-basic](https://git-scm.com/book/en/v2/images/snapshots.png)
 
 +++
 
