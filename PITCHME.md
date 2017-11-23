@@ -13,7 +13,6 @@ Agenda:
   * setup automatic testing
   * make a setup script that can be used to test and install the project
 
-
 ---
 
 ### Why Code quality is important!
@@ -49,8 +48,9 @@ __Productivity vs. Time__
 
 It's about ...
 
-- doing the right thing, right
-  - Well-tested & bug-free code
+- doing __the right thing__, __right__
+  - well-tested
+  - bug-free code
 
 - writing __clear__ & __simple__ code
   - easy to __understand__
