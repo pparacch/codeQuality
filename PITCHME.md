@@ -20,13 +20,15 @@ Agenda:
 
 +++
 
-3 & 6 June, 1980: __[NORAD and Nuclear Attack Warnings](https://en.wikipedia.org/wiki/North_American_Aerospace_Defense_Command)__
+3 & 6 June, 1980  
+__[NORAD and Nuclear Attack Warnings](https://en.wikipedia.org/wiki/North_American_Aerospace_Defense_Command)__
 
 <small>"... On 3 June 1980, and again on 6 June 1980, a computer communications device failure caused warning messages to sporadically flash in U.S. Air Force command posts around the world that a nuclear attack was taking place. ..."</small>
 
 +++
 
-26 September, 1983: __[The man who saved the world by doing nothing](https://www.wired.com/2007/09/dayintech-0926-2/)__
+26 September, 1983  
+__[The man who saved the world by doing nothing](https://www.wired.com/2007/09/dayintech-0926-2/)__
 
 <small>"... One of the satellites signaled Moscow that the United States had launched five ballistic missiles at Russia ..."</small>
 
