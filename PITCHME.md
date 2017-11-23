@@ -119,12 +119,14 @@ __Version control__ is vital when working on a task, whether __alone__ or __with
 
 #### Interactive Development Environment (IDE)
 
-_An IDE does not make you a good programmer but can make your life easier._
+_An IDE does not make you a good programmer but_  
+_can make your life easier._
 
 - code completion
 - syntax highlight
 - search
 - refactoring
+- ...
 
 +++
 
