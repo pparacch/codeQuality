@@ -40,7 +40,8 @@ __Productivity vs. Time__
 
 +++
 
-You are not an __island__!
+You are not an __island__ and,
+... your __memory__ will __fail you__!
 
 ![code_quality](https://2.bp.blogspot.com/-m-Bkg3LXUW4/V2gAjK9uraI/AAAAAAAC25c/xR3MAwqOLToDOh6k6jDaZZC2qmQT9EwCACLcB/w1200-h630-p-k-no-nu/Poor-Software-Quality.jpg)
 
@@ -69,14 +70,17 @@ It's about ...
 
 +++
 
-#### Python 
+#### Be in control of the __runtime environment__
 
-- Which version of python is used?
-- Which version of the packages are required?
+- Which __version of python__ is used?
+- Which __version of the packages__ are required?
 
-If using vanilla python look into __Virtualenv__, if using conda look into __environments__
+If using vanilla python look into __Virtualenv__, and
+if using conda look into __environment__
 
 +++
+
+An example of a conda __environment__...
 
 ```
 name: myEnvironment
