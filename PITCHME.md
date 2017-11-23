@@ -132,21 +132,29 @@ _can make your life easier._
 
 #### Coding style: [PEP-8 Standard](http://legacy.python.org/dev/peps/pep-0008/)
 
-* __Indents__ - 4 spaces for each indentation (no TAB)
-* __Maximum line length__ - 80 characters
-* __Blank lines__ - 2 between imports/ classes/ functions; 1 between methods within a class
-* __Import statements__ - 1 per line
-* __Class names__ - capital for the first letter (and then camel case)
-* __Method names__ - all lowercase and underscore to separate words  
+* __Indents__, <small>4 spaces for each indentation (no TAB)</small>
+* __Maximum line length__, <small>80 characters</small>
+* __Blank lines__, <small>2 between imports/ classes/ functions; 1 between methods within a class</small>
+
++++
+
+* __Import statements__, <small>1 per line</small>
+* __Class names__, <small>capital for the first letter (and then camel case)</small>
+* __Method names__, <small>all lowercase and underscore to separate words</small>
 
 +++
 
 #### Coding style: Clean Code
 
-- __Use meaningful names__ for your variables, functions, arguments, classes ...
-- __Explain yourself in code__ use the code to express your intentions
-- __Use comments__ to compensate the inability to express your intention with the code (<small> comments do not make up for bad code!</small>)  
+- __Use meaningful names__ <small>for your variables, functions, arguments, classes ...</small>
+- __Explain yourself in code__ <small>use the code to express your intentions</small>
+- __Use comments__ <small>to compensate the inability to express your intention with the code (comments do not make up for bad code!)</small>  
 
++++
+
+- __Function must be small__, <small>20/ 30 lines of code</small>
+- __Each function should do one thing__, <small>they should do it well and they should do it only.</small>
+- __Ideal number of arguments for a function: less than 3__
 ---
 
 ### Script style development
