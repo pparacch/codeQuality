@@ -37,7 +37,10 @@ __Productivity vs. Time__
   - being __slow down__ by __messy code__
 
 ![messiness](./messiness.png)
+
 +++
+
+You are not an island!
 
 ![code_quality](https://2.bp.blogspot.com/-m-Bkg3LXUW4/V2gAjK9uraI/AAAAAAAC25c/xR3MAwqOLToDOh6k6jDaZZC2qmQT9EwCACLcB/w1200-h630-p-k-no-nu/Poor-Software-Quality.jpg)
 
