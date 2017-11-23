@@ -117,13 +117,18 @@ __Version control__ is vital when working on a task, whether __alone__ or __with
 +++
 
 
-####
+#### Interactive Development Environment (IDE)
+
+_An IDE does not make you a good programmer but can make your life easier._
+
+- code completion
+- syntax highlight
+- search
+- refactoring
 
 +++
 
-#### Coding style
-
-__[PEP-8 Standard](http://legacy.python.org/dev/peps/pep-0008/)__
+#### Coding style: [PEP-8 Standard](http://legacy.python.org/dev/peps/pep-0008/)
 - __Indents__ - four spaces for each indentation
 - __Maximum line length__ - 80 characters
 - __Blank lines__ - two between import, class, and function definitions; one between method definitions within a class
