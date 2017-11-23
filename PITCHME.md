@@ -94,7 +94,7 @@ dependencies:
   - scipy==1.0.0
 ```
 
----
++++
 
 #### Vource Control (Git)
 
@@ -104,7 +104,7 @@ Version control is vital when working on a task, whether alone or with other peo
 
 +++
 
-<smaller>"_With Git, every time you commit ... Git basically takes a picture of what all your files look like at that moment and stores a reference to that snapshot. Git thinks about its data more like a stream of snapshots._"</smaller>
+<smaller>"_Git thinks about its data more like a stream of snapshots._"</smaller>
 
 ![git-basic](https://git-scm.com/book/en/v2/images/snapshots.png)
 
