@@ -40,7 +40,7 @@ __Productivity vs. Time__
 
 +++
 
-You are not an island!
+You are not an __island__!
 
 ![code_quality](https://2.bp.blogspot.com/-m-Bkg3LXUW4/V2gAjK9uraI/AAAAAAAC25c/xR3MAwqOLToDOh6k6jDaZZC2qmQT9EwCACLcB/w1200-h630-p-k-no-nu/Poor-Software-Quality.jpg)
 
@@ -60,6 +60,35 @@ It's about ...
   - easy to __understand__
   - easy to __maintain__
   - __self-explaining__
+
+---
+
+### Fundamentals & Best Practice
+
+<small>_... it is a good idea to take some time to get your machine in order and up to date with the tools you will need to do your work._</small>
+
++++
+
+#### Python 
+
+- Which version of python is used?
+- Which version of the packages are required?
+
+If using vanilla python look into __Virtualenv__, if using conda look into __environments__
+
++++
+
+```
+name: myEnvironment
+
+dependencies:
+- python=3.6.2
+- pip:
+  - pandas==0.21.0
+  - nltk==3.2.5
+  - scikit-learn==0.19.1
+  - scipy==1.0.0
+```
 
 ---
 
