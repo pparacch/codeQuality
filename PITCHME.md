@@ -96,7 +96,7 @@ dependencies:
 
 +++
 
-#### Vource Control (Git)
+#### Version Control (Git)
 
 Version control is vital when working on a task, whether alone or with other people.
 
@@ -104,7 +104,7 @@ Version control is vital when working on a task, whether alone or with other peo
 
 +++
 
-<smaller>"_Git thinks about its data more like a stream of snapshots._"</smaller>
+<small>"_Git thinks about its data more like a stream of snapshots._"</small>
 
 ![git-basic](https://git-scm.com/book/en/v2/images/snapshots.png)
 
