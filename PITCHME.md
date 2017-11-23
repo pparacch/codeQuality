@@ -3,19 +3,13 @@
 ---
 
 Agenda:
-* We will look at a script and see some drawbacks of the "script style"
-* We try to explain the benefits of many small functions rather than few big functions
 
-+++
-* We will see how to
-  * use git (some experience is assumed)
-  * write tests
-  * setup automatic testing
-  * make a setup script that can be used to test and install the project
+* we will look at why code quality is important
+* we will see what we can do to improve our code quality
 
 ---
 
-### Why Code quality is important!
+### Why code quality is important!
 
 +++
 
@@ -167,7 +161,7 @@ _can make your life easier._
 - __Limit the number of arguments for a function__
   - less than 3
 - __Limit nesting within a function__
-  - less o maximum 2 nesting level
+  - less then or maximum _2 nesting level_
 
 ---
 
