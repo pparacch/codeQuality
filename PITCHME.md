@@ -4,8 +4,8 @@
 
 Agenda:
 
-* we will look at why code quality is important
-* we will see what we can do to improve our code quality
+* we will look at __why code quality is important__
+* we will see what we can __do to improve our code quality__
 
 ---
 
