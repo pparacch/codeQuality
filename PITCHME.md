@@ -146,7 +146,7 @@ _can make your life easier._
   - __Statements__
     - Generally only one statement per line.
   -  __Naming__
-    - naming for module (_module\_name_), ...
+    - naming for module (module\_name), ...
   - ...
 
 +++
@@ -175,16 +175,15 @@ _can make your life easier._
 
 ### Script style development
 
-In Statoil we often see there are __scripts__ written that have
-- __no functions__
-- span __200-2000__ lines of code (LOC).
+In Statoil we often see there are __scripts__ written that have __no functions__ and span __200-2000__ lines of code (LOC).
 
 +++
 
 Some __examples__ recently include
 * 764 LOC __else__ block
 * 700 LOC function called __`run()`__
-* 500 LOC function called __`named_plot`__ taking __14 parameters__
+* 500 LOC function called __`named_plot`__
+  * taking __14 parameters__
 * 400 LOC script, __no functions__
 
 +++
@@ -211,17 +210,16 @@ def plot_inflow(w, p, lock=''):         # :1175
           for i, t in enumerate(oil_prod):
             if t <= 0:
               oil_prod[i] = 1.0E-9      # :1332
-
 ```
 
 +++
 
 #### Improvement: Divide & Conquer
 
-* use __functions__
+* use __functions__, small function
   * each function should __do one thing__ (SRP)
   * _recommended_ at most __30 LOC / function__
-    * but more is ok if it still does _one_ thing!
+    * but more is ok if it __still__ does __one thing__!
   * fewer LOC if complex control flow
   * _recommended_ maximum nesting: 2 levels
   * _recommended_ maximum no of arguments: 2/3
@@ -230,27 +228,26 @@ def plot_inflow(w, p, lock=''):         # :1175
 
 #### Why do we program?
 
----
-
++++
 
 Primary reason:
 * pure pleasure
 
 +++
 
-We program to:
+... but also to
 
+* create something valuable
 * automate work that is
   * tedious
   * slow
   * error-prone
   * boring?
 
-
 ---
 
 
-In the process we are solving many smaller problems!
+In the process we are __solving many smaller problems__!
 
 +++
 
