@@ -279,13 +279,14 @@ We want to write __resusable__ programs.
 
 +++
 
-Wnen we
+When we
 
-* Spend 3 months writing a
+* spend 3 months writing a
 * 500 LOC function taking
 * more than 10 parameters,
 
-guaranteed not used by anyone else (__ensure no reusability__).
+guaranteed not used by anyone else  
+(__ensure no reusability__).
 
 +++
 
