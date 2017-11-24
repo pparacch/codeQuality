@@ -314,20 +314,25 @@ Use a __Divide & Conquer__ strategy
     * _recommended_ at most __30 LOC / function__
       * but more is ok if it __still__ does __one thing__!
     * fewer LOC if complex control flow
-    * maximum nesting
-      * 2 levels (_recommended_)
-    * maximum no of arguments
-      * 2/3 (_recommended_)
 
 +++
 
-#### Command-Query Separation (CQS) principle
+__Command-Query Separation__ (CQS) principle
 
 * A function should either
   * do something _(command)_
     * e.g. change the state of an object
   * or answering something _(query)_
     * e.g. return some information about that object
+
++++
+
+A function should have
+
+* maximum nesting
+  * 2 levels (_recommended_)
+* maximum no of arguments
+  * 2/3 (_recommended_)
 
 ---
 
