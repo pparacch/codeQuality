@@ -257,20 +257,6 @@ def plot_inflow(w, p, lock=''):         # :1175
               oil_prod[i] = 1.0E-9      # :1332
 ```
 
-+++
-
-#### Change Strategy: Divide & Conquer
-
-* use __functions__, small function
-  * each function should __do one thing__ (SRP)
-  * _recommended_ at most __30 LOC / function__
-    * but more is ok if it __still__ does __one thing__!
-  * fewer LOC if complex control flow
-  * maximum nesting
-    * 2 levels (_recommended_)
-  * maximum no of arguments
-    * 2/3 (_recommended_)
-
 ---
 
 #### Reusable programs
@@ -298,7 +284,7 @@ than if you write code that many others can use.
 
 ### Short functions
 
-We wnat to write __short functions__.
+We want to write __short functions__.
 
 +++
 
@@ -319,6 +305,19 @@ Then
 * not reusable
 * should be split.
 
++++
+
+Use a __Divide & Conquer__ strategy
+
+* decompose into smaller tasks (functions)
+  * each task (function) should __do one thing__ (SRP)
+    * _recommended_ at most __30 LOC / function__
+      * but more is ok if it __still__ does __one thing__!
+    * fewer LOC if complex control flow
+    * maximum nesting
+      * 2 levels (_recommended_)
+    * maximum no of arguments
+      * 2/3 (_recommended_)
 
 +++
 
