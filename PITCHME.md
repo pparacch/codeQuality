@@ -418,6 +418,4 @@ Simultaneously, you got to
 
 ---
 
-![goodcode](https://imgs.xkcd.com/comics/good_code.png)
-
 EOF
