@@ -175,17 +175,17 @@ _can make your life easier._
 
 ### Script style development
 
-In Statoil we often see there are scripts written that have no functions
-
-span 200-2000 lines of code.
+In Statoil we often see there are __scripts__ written that have
+- __no functions__
+- span __200-2000__ lines of code (LOC).
 
 +++
 
-Some examples recently include
-* 764 LOC else block
-* 700 LOC function called `run()`
-* 500 LOC function called `named_plot` taking 14 parameters
-* 400 LOC script, no functions
+Some __examples__ recently include
+* 764 LOC __else__ block
+* 700 LOC function called __`run()`__
+* 500 LOC function called __`named_plot`__ taking __14 parameters__
+* 400 LOC script, __no functions__
 
 +++
 
@@ -193,12 +193,7 @@ Some examples recently include
 
 +++
 
-* recommend: at most 30 LOC / function
-  * but more is ok if it does _one_ thing!
-* fewer LOC if complex control flow
-* maximum nesting: 4 levels
-
-+++
+An example ...
 
 ```python
 # Ugly! Workaround to use multithreading and speed-up plotting
@@ -219,11 +214,21 @@ def plot_inflow(w, p, lock=''):         # :1175
 
 ```
 
++++
+
+#### Improvement: Divide & Conquer
+
+* use __functions__
+  * each function should __do one thing__ (SRP)
+  * _recommended_ at most __30 LOC / function__
+    * but more is ok if it still does _one_ thing!
+  * fewer LOC if complex control flow
+  * _recommended_ maximum nesting: 2 levels
+  * _recommended_ maximum no of arguments: 2/3
+
 ---
 
-
 #### Why do we program?
-
 
 ---
 
