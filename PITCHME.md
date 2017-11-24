@@ -343,7 +343,7 @@ A function should have
 
 #### Doing the thing right
 
-To ensure that our code runs correctly,
+To ensure that our code runs correctly,  
 we write a _unit test_.
 
 ```python
