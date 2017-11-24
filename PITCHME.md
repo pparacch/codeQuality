@@ -282,9 +282,9 @@ than if you write code that many others can use.
 
 ---
 
-### Meaningful functions
+### Well-defined functions
 
-We want to write __short functions__.
+We want to write __well-defined__ functions.
 
 +++
 
