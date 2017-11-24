@@ -4,8 +4,9 @@
 
 Agenda:
 
-* we will look at __why code quality is important__
-* we will see what we can __do to improve our code quality__
+* why __code quality__ is important
+* what we __can do__ to __improve__ our __code quality__
+* hands-on session
 
 ---
 
@@ -28,7 +29,7 @@ __[The man who saved the world by doing nothing](https://www.wired.com/2007/09/d
 +++
 
 __Productivity vs. Time__
-  - being __slow down__ by __messy code__
+  - __messy code__ will __slow you down__
 
 ![messiness](./messiness.png)
 
@@ -120,32 +121,36 @@ _can make your life easier._
 - syntax highlight
 - search
 - refactoring
+- debugging
 - ...
 
 +++
 
-#### Coding style: [PEP-8 Standard](http://legacy.python.org/dev/peps/pep-0008/)
+#### Coding style
 
-- __Indents__
-  - 4 spaces for each indentation (no TAB)
-- __Maximum line length__
-  - 80 characters
-- __Blank lines__
-  - 2 between imports/ classes/ functions;
-  - 1 between methods within a class
-
-+++
-
-- __Import statements__
-  - 1 per line
-- __Class names__
-  - capital for the first letter (and then camel case)
--  __Method names__
-  - all lowercase and underscore to separate words
+- [PEP-8 Standard](http://legacy.python.org/dev/peps/pep-0008/)
+  - __Indents__
+    - 4 spaces (no TAB)
+  - __Maximum line length__
+    - 80 characters
+  - __Blank lines__
+    - 2 between imports/ classes/ functions;
+    - 1 between methods within a class
+  - ...
 
 +++
 
-#### Coding style: Clean Code
+- [Google Python](https://google.github.io/styleguide/pyguide.html)
+  - __Indentation__
+    - Indent your code blocks with 4 spaces
+  - __Statements__
+    - Generally only one statement per line.
+  -  __Naming__
+    - naming for module (_nmodule_name_), ...
+
++++
+
+#### [Clean Coder](https://cleancoders.com/) Rules
 
 - __Use meaningful names__
   - variables, functions, arguments, ...
