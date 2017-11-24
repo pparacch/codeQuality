@@ -214,7 +214,7 @@ def plot_inflow(w, p, lock=''):         # :1175
 
 +++
 
-#### Improvement: Divide & Conquer
+#### Change Strategy: Divide & Conquer
 
 * use __functions__, small function
   * each function should __do one thing__ (SRP)
@@ -275,18 +275,17 @@ and are often seen in other problems.
 
 #### Reusable programs
 
-But when our solution is a 500 lines long script
-
-we ensure no reusability.
+We want to write __resusable__ programs.
 
 +++
 
+Wnen we
 
 * Spend 3 months writing a
 * 500 LOC function taking
 * more than 10 parameters,
 
-guaranteed not used by anyone else.
+guaranteed not used by anyone else (__ensure no reusability__).
 
 +++
 
@@ -294,15 +293,13 @@ Those three months are much more expensive
 
 than if you write code that many others can use.
 
-+++
-
-> given enough eyeballs, all bugs are shallow
-
-More users gives better testing gives better quality
-
 ---
 
-### Long functions
+### Short functions
+
+We wnat to write __short functions__.
+
++++
 
 Long functions _are not well-defined_
 
@@ -324,7 +321,7 @@ Then
 
 +++
 
-#### Command-Query Separation
+#### Command-Query Separation (CQS) principle
 
 * A function should either
   * do something _(command)_
