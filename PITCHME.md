@@ -10,6 +10,51 @@ Agenda:
 
 ---
 
+#### Why do we program?
+
++++
+
+Primary reasons:
+* pure pleasure
+* it is fun
+
++++
+
+... but also to
+
+* create something valuable
+* automate work that is
+  * tedious
+  * slow
+  * error-prone
+  * boring?
+
++++
+
+In the process we are __solving many smaller problems__!
+
++++
+
+These smaller problems form
+
+> atomic building blocks of the final solution
+
+and are often seen in other problems.
+
++++
+
+> atomic building blocks
+
+* obtaining data from wherever
+* parsing and cleaning csv
+* splitting dataset
+* reading ECLIPSE files
+* and writing them
+* plotting production curves
+* ...
+
+---
+
 ### Why code quality is important!
 
 +++
@@ -225,51 +270,6 @@ def plot_inflow(w, p, lock=''):         # :1175
     * 2 levels (_recommended_)
   * maximum no of arguments
     * 2/3 (_recommended_)
-
----
-
-#### Why do we program?
-
-+++
-
-Primary reasons:
-* pure pleasure
-* it is fun
-
-+++
-
-... but also to
-
-* create something valuable
-* automate work that is
-  * tedious
-  * slow
-  * error-prone
-  * boring?
-
-+++
-
-In the process we are __solving many smaller problems__!
-
-+++
-
-These smaller problems form
-
-> atomic building blocks of the final solution
-
-and are often seen in other problems.
-
-+++
-
-> atomic building blocks
-
-* obtaining data from wherever
-* parsing and cleaning csv
-* splitting dataset
-* reading ECLIPSE files
-* and writing them
-* plotting production curves
-* ...
 
 ---
 
