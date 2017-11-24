@@ -146,7 +146,8 @@ _can make your life easier._
   - __Statements__
     - Generally only one statement per line.
   -  __Naming__
-    - naming for module (_nmodule_name_), ...
+    - naming for module (_module\_name_), ...
+  - ...
 
 +++
 
@@ -156,11 +157,12 @@ _can make your life easier._
   - variables, functions, arguments, ...
 - __Explain yourself in code__
 - __Use comments for special case__
+- __Function must be small__
+  - try to limit to 20/ 30 lines of code
+
 
 +++
 
-- __Function must be small__
-  - try to limit to 20/ 30 lines of code
 - __Each function should do one thing__
   - they should do it well and they should do it only
 - __Limit the number of arguments for a function__
