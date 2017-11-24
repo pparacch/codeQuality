@@ -282,7 +282,7 @@ than if you write code that many others can use.
 
 ---
 
-### Short functions
+### Meaningful functions
 
 We want to write __short functions__.
 
@@ -336,12 +336,11 @@ A function should have
 
 ---
 
-### Test driven development (TDD)
+### Doing the thing right
 
+Test Driven Development (TDD)
 
 +++
-
-#### Doing the thing right
 
 To ensure that our code runs correctly,  
 we write a _unit test_.
