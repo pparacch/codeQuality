@@ -249,7 +249,11 @@ Primary reasons:
 
 +++
 
-In the process we are __solving many smaller problems__! These smaller problems form
+In the process we are __solving many smaller problems__!
+
++++
+
+These smaller problems form
 
 > atomic building blocks of the final solution
 
@@ -269,10 +273,9 @@ and are often seen in other problems.
 
 ---
 
-
 #### Reusable programs
 
-When our solution is a 500 lines long script
+But when our solution is a 500 lines long script
 
 we ensure no reusability.
 
@@ -296,12 +299,6 @@ than if you write code that many others can use.
 > given enough eyeballs, all bugs are shallow
 
 More users gives better testing gives better quality
-
-+++
-
-> given enough eyeballs, all bugs are shallow
-
-... is the mantra of open source
 
 ---
 
@@ -329,39 +326,22 @@ Then
 
 #### Command-Query Separation
 
-* A function should
-  * either modify its input _(command)_
-  * or return something _(query)_
-
-+++
-
-#### Command-Query Separation
-
-* The best case is _immutable objects_
-  * no function modifies data
-  * all functions are queries
+* A function should either
+  * do something _(command)_
+    * e.g. change the state of an object
+  * or answering something _(query)_
+    * e.g. return some information about that object
 
 ---
 
-#### The behavior of a function
-
-When a function is not well-defined
-* it is difficult to use
-* it is difficult to test
-* it is difficult to debug
-  * because its scope is unclear
-
-
----
-
-### Test driven development
+### Test driven development (TDD)
 
 
 +++
 
-#### Code QA
+#### Doing the thing right
 
-To ensure that code runs correctly, we write _unit test_.
+To ensure that our code runs correctly, we write a _unit test_.
 
 ```python
 def root_mean_square(lst):
@@ -372,26 +352,29 @@ def test_rms():
     assert root_mean_square([4,5,6,7,8]) == 6.1644
 ```
 
-
 +++
-
 
 ##### Unit test
 
+In unit testing, each individual unit of code (e.g. a function) is tested in isolation to see if given certain conditions it responds in the expected way
+
++++
+
 Unit tests ensure several things, amongst
 * ensure _correctness_
-* inform you when behavior changes
+* act as a _security net_
+  * inform when behavior changes
 * force you into using your own program (dogfood)
 
++++
 
----
+#### The TDD heart-bit
 
-#### Test Driven Development (TDD)
-
-
-* When writing code for Statoil
-  * we always employ _test driven development_
-  * always
+- Write a test
+  - __make it fail__
+- Write the code (KISS)
+  - __make it pass__
+- repeat
 
 +++
 
@@ -406,11 +389,9 @@ def test_rms():
 
 There is no such function!  So the tests will fail!
 
-
 +++
 
-
-##### Test first -- then implement
+##### Test first -- then implement (KISS)
 
 
 ```python
@@ -427,6 +408,7 @@ Hopefully written correctly, tests pass!
 
 Simultaneously, you got to
 
+* forced to think about the interface
 * use your own interface before writing it
 * making it easy to understand
 * reusable
