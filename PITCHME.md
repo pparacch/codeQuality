@@ -169,6 +169,7 @@ _can make your life easier._
   - less than 3
 - __Limit nesting within a function__
   - less then or maximum _2 nesting level_
+- ...
 
 ---
 
