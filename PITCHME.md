@@ -221,8 +221,10 @@ def plot_inflow(w, p, lock=''):         # :1175
   * _recommended_ at most __30 LOC / function__
     * but more is ok if it __still__ does __one thing__!
   * fewer LOC if complex control flow
-  * _recommended_ maximum nesting: 2 levels
-  * _recommended_ maximum no of arguments: 2/3
+  * maximum nesting
+    * 2 levels (_recommended_)
+  * maximum no of arguments
+    * 2/3 (_recommended_)
 
 ---
 
@@ -230,8 +232,9 @@ def plot_inflow(w, p, lock=''):         # :1175
 
 +++
 
-Primary reason:
+Primary reasons:
 * pure pleasure
+* it is fun
 
 +++
 
@@ -244,14 +247,9 @@ Primary reason:
   * error-prone
   * boring?
 
----
-
-
-In the process we are __solving many smaller problems__!
-
 +++
 
-These smaller problems form
+In the process we are __solving many smaller problems__! These smaller problems form
 
 > atomic building blocks of the final solution
 
