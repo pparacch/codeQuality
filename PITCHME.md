@@ -411,6 +411,8 @@ Simultaneously, you got to
 * reusable
 * well defined
 
-+++
+---
+
+![goodcode](https://imgs.xkcd.com/comics/good_code.png)
 
 EOF
