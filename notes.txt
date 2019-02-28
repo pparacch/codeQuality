@@ -1,0 +1,1 @@
+A short introduction on Code Quality and how to build code quality from the ground up. 
